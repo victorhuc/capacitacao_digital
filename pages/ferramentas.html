@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capacitação Digital de Idosos</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="imagex/png" href="../imgs/9334225.jpg">
+        <link rel="stylesheet" href="../style/styles.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <div class="icon-site">
+                <img src="../imgs/9334225.jpg" class="rounded" alt="Bootstrap" width="30" height="24">
+            </div>              
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curso">Nosso Curso</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="botao-leitura">
+        <button class="position-fixed btn btn-primary my-5" onclick="lerTexto()">🗣</button>
+    </div>  
+    <section id="ferramentas" class="container my-5">
+        <h2 style="color: #0073e6;">Ferramentas de Auxílio</h2>
+        <hr class="">
+        <p>
+            Aqui está uma lista de ferramentas digitais que podem te ajudar! 
+        </p>
+        <h3 style="color:#78c850;">Conteúdo do Repositório:</h3>  
+        <br>   
+            <div id="smartphones">
+                <h4 style="color: #0073e6;">1. Smartphones e Tablets Adaptados</h4>
+                <ul>
+                    <li><a href="https://canaltech.com.br/android/como-configurar-o-modo-facil-nos-celulares-android/" class="list-group-item list-group-item-action">📱 Modo Fácil (Easy Mode) – Presente em muitos smartphones, aumenta os ícones, simplifica os menus e melhora a visibilidade.</a></li> 
+                    <li><a href="https://www.techtudo.com.br/listas/2024/08/tablet-grande-veja-7-modelos-com-tela-de-11-polegadas-ou-mais-edmobile.ghtml" class="list-group-item list-group-item-action">📱 GrandPad – Tablet desenvolvido especialmente para idosos, com interface simples e suporte para chamadas de vídeo e e-mails.</a></li>
+                    <li><a href="https://www.amazon.com/Jitterbug-Smart3-Smartphone-for-Seniors/dp/B098KF1G4Q" class="list-group-item list-group-item-action">📱 Jitterbug Smart – Celular com interface simplificada, botões grandes e suporte de voz para facilitar o uso.</a></li>
+                </ul>
+            </div>
+            <div id="comunicacao">
+                <h4 style="color: #0073e6;">2. Aplicativos para Comunicação </h4>
+                <ul>            
+                    <li><a href="https://www.whatsapp.com/download?lang=pt_BR" class="list-group-item list-group-item-action">💬 WhatsApp – Permite chamadas de vídeo, envio de mensagens de voz e texto de forma simples.</a></li>
+                    <li><a href="https://www.skype.com/pt-br/get-skype/" class="list-group-item list-group-item-action">💬 Skype / Zoom – Ótimos para chamadas de vídeo com familiares e amigos.</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&pli=1" class="list-group-item list-group-item-action">💬 Facebook e Instagram – Ajudam a manter contato com conhecidos e ver atualizações da família.</a></li>
+                </ul>
+            </div>
+            <div id="acessibilidade">
+                <h4 style="color: #0073e6;">3. Ferramentas de Acessibilidade </h4>
+                <ul>                
+                    <li><a href="https://www.vsi.tv/services/voice-over?gad_source=1&gclid=Cj0KCQiA8fW9BhC8ARIsACwHqYrS22sWlBv0IiFF8LXqs5fe8IP03Qi4B99_zcLnxpyiEZ0oOqHmn9kaAmCMEALw_wcB" class="list-group-item list-group-item-action">🔊 VoiceOver (iOS) / TalkBack (Android) – Lê o que está na tela em voz alta, ajudando pessoas com dificuldade visual.</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.touchtype.swiftkey&hl=pt_BR" class="list-group-item list-group-item-action">🔠 Teclado SwiftKey – Previsão de palavras e teclado maior para facilitar a digitação.</a></li>
+                    <li><a href="https://hubify.com.br/marketing-digital/voice-commerce/" class="list-group-item list-group-item-action">📢 Google Assistente / Siri / Alexa – Comandos de voz para fazer ligações, pesquisar informações e controlar dispositivos.</a></li>
+                </ul>
+            </div>
+            <div id="seguranca_saude">
+                <h4 style="color: #0073e6;">4. Aplicativos de Segurança e Saúde </h4>
+                <ul>                
+                    <li><a href="https://play.google.com/store/apps/details?id=com.rghvsapp.android.sosalert&hl=pt_BR" class="list-group-item list-group-item-action">🛡 SOS Emergency App – Envia alertas de emergência para familiares com apenas um toque.</a></li>
+                    <li><a href="https://www.medisafe.com/" class="list-group-item list-group-item-action">⚕ Medisafe – Lembra os idosos de tomar seus remédios na hora certa.</a></li>
+                    <li><a href="https://meususdigital.saude.gov.br/login" class="list-group-item list-group-item-action">🏥 Meu SUS Digital – Ajuda a acessar informações médicas e agendar consultas no sistema público de saúde.</a></li>
+                </ul>
+            </div>
+            <div id="aprendizado">
+                <h4 style="color: #0073e6;">5. Plataformas de Aprendizado </h4>
+                <ul>                
+                    <li><a href="https://www.youtube.com/" class="list-group-item list-group-item-action">🎓 YouTube – Oferece vídeos educativos sobre informática e tecnologia para idosos.</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.humanprogram.primer&hl=pt_BR" class="list-group-item list-group-item-action">🎓 Google Primer – Pequenos cursos interativos sobre internet e tecnologia.</a></li>
+                    <li><a href="#" class="list-group-item list-group-item-action">🎓 Inclusão Digital para Idosos (Senac, Sesc, SEBRAE, etc.) – Diversos cursos gratuitos ou acessíveis ensinando informática básica.</a><li>
+                </ul>
+            </div>
+            <div id="acessibilidade">
+                <h4 style="color: #0073e6;">6. Ferramentas Bancárias e Financeiras </h4>
+                <ul>               
+                    <li><a href="#" class="list-group-item list-group-item-action">🏦 Banco Digital com Acessibilidade – Aplicativos como Caixa Tem, Banco do Brasil e Bradesco possuem versões simplificadas para idosos.</a></li>
+                    <li><a href="https://picpay.com/?utm_source=googlesearch&utm_medium=googlesearch&utm_campaign=marca-produto-conta&utm_id=marca-produto-conta&utm_term=marca-produto-conta&gad_source=1&gclid=Cj0KCQiA8fW9BhC8ARIsACwHqYr7xY5uZ0GT--Ij92QKyBC1kFQzu2NKweJds3bkc7ZYl8t6fMUxp-IaAsv1EALw_wcB" class="list-group-item list-group-item-action">💳 PicPay e Mercado Pago – Facilitam pagamentos sem precisar sair de casa.</a></li>
+                    <li><a href="https://www.techtudo.com.br/tudo-sobre/guiabolso/" class="list-group-item list-group-item-action">💰 Guiabolso – Ajuda no controle de despesas e organização financeira.</a></li>
+                </ul>
+            </div>
+            <ul>             
+    </section>    
+       <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2025 Capacitação Digital de Idosos. Todos os direitos reservados. </p>
+    </footer>
+    <script src="../js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
